@@ -25,6 +25,14 @@
 5.0.0 Beta 1
 * Rewrite most of the plugin
 
+3.10.13
+* Added support for bookshelves, crafters, and decorated pots to the Pipes mechanic
+* Added cactus flowers as a harvestable plant for the Combine Harvester IC
+* Improved the performance of the Pipes mechanic
+* Improved compatibility of the sign copier mechanic with other plugins
+* Fixed the Map Changer mechanic with high map IDs
+* Performed general cleanups across the codebase
+
 3.10.12
 * Update for 1.21.3
 
