@@ -1,3 +1,23 @@
+5.0.0 Beta 5
+* Includes changes from 3.10.13
+* Added the Bounce Blocks mechanic
+* Added an option to inject extra data into XP bottles created by the XP Storer mechanic
+* Added 2x2 sapling support in the Tree Lopper mechanic for the pale oak and spruce tree types
+* Added an option to the Tree Lopper mechanic to break mangrove roots when cutting mangrove trees
+* Added additional head drop definitions to cover all mobs added up to MC 1.21.11
+* Added an option to remove entities when a ToggleArea is toggled
+* Improved code to interface with protection plugins to improve reliability
+* Improved compatibility of the simple area mechanics (Door, Gate, Bridge) with plugins sending fake block break events
+* Fixed Lift UpDown signs not working in some situations when in a negative Y coordinate
+* Fixed a few niche cases where BetterPlants could override the wrong blocks
+* Fixed BetterPlants not functioning correctly in negative Y coordinates
+* Fixed a potential error that can occur in BetterPistons when the server has invalid sign data
+* Fixed issues that can occur with BetterAI "Flee from Weapons" goal in certain server configurations
+* Fixed issues that can occur with BetterAI "Attack Passive" goal in certain server configurations
+* Fixed gate sometimes making odd choices when identifying the material to use for the gate
+* Significant cleanups and hardening across the codebase to improve overall quality and maintainability
+* Build against Minecraft 1.21.10, dropping support for prior versions
+
 5.0.0 Beta 4
 * Add support for MC 1.21.3
 * Add the HiddenSwitch mechanic

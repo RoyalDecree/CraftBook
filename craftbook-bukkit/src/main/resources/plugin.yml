@@ -1,7 +1,0 @@
-name: CraftBook5
-main: org.enginehub.craftbook.bukkit.CraftBookPlugin
-version: "${internalVersion}"
-website: https://enginehub.org/craftbook/
-softdepend: [WorldEdit, WorldGuard, Vault]
-api-version: 1.18
-commands:
